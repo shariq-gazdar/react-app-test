@@ -71,10 +71,7 @@ function App() {
             }
           />
 
-          <Route
-            path="https://shariq583.github.io/react-app-test/about"
-            element={<About />}
-          />
+          <Route path="/react-app-test/about" element={<About />} />
         </Routes>
       </div>
     </Router>
