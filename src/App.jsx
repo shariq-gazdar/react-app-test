@@ -62,7 +62,7 @@ function App() {
         <Alert aboutTxt={alert} />
         <Routes>
           <Route
-            path="/"
+            path="https://shariq583.github.io/react-app-test/"
             element={
               <TextPart
                 heading="Enter Your Text Below"
@@ -71,7 +71,10 @@ function App() {
             }
           />
 
-          <Route path="/about" element={<About />} />
+          <Route
+            path="https://shariq583.github.io/react-app-test/about"
+            element={<About />}
+          />
         </Routes>
       </div>
     </Router>
